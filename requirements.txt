@@ -1,0 +1,5 @@
+SpeechRecognition
+gTTS
+pygame
+pyttsx3
+PyAudio
