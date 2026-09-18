@@ -4,6 +4,7 @@ import pyttsx3
 import os
 from gtts import gTTS
 import pygame
+import musicLibrary
 
 
 # pip install pocketsphinx
@@ -58,6 +59,15 @@ def processCommand(c):
         
         speak(f"Opening {site_name}")
         webbrowser.open(url)
+
+    elif c_lower.startswith("play"):
+        song = c_lower.replace("play ", "").strip()
+        if song in musicLibrary.music:
+            link = musicLibrary.music[song]
+            webbrowser.open(link)
+            speak(f"Playing {song}")
+        else:
+            speak(f"Sorry, I couldn't find the song {song}.")
 
 
 

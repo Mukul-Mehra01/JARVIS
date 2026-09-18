@@ -1,118 +1,98 @@
-music={
-    "I Knew It, I Knew You" : "https://www.youtube.com/watch?v=hDU4GB1PTxc", 
-    "Choosin' Texas" : "https://www.youtube.com/watch?v=nUsrYVxrDwI",
+music = {
+    "I Knew It, I Knew You": "https://www.youtube.com/watch?v=hDU4GB1PTxc",
+    "Choosin' Texas": "https://www.youtube.com/watch?v=nUsrYVxrDwI",
     "Hate That I Made You Love Me": "https://www.youtube.com/watch?v=82-jTNka3uc",
     "BbY WOW": "https://www.youtube.com/watch?v=fRIhCiUVaKs",
-    "So Easy (To Fall In Love)" : "https://www.youtube.com/watch?v=3sur4BmjQt8",
+    "So Easy (To Fall In Love)": "https://www.youtube.com/watch?v=3sur4BmjQt8",
     "Janice STFU": "https://www.youtube.com/watch?v=SD4yRDY9mek",
     "Dead Fresh": "https://www.youtube.com/watch?v=PXxbEfhtDiM",
-    "I Can't Love You Anymore":"https://www.youtube.com/watch?v=A3G_7XgK2B4",
-    "Ghost":"https://www.youtube.com/watch?v=Sqhuk0iaq4k",
-    "Be Her":"https://www.youtube.com/watch?v=Dg47eNL_Usw",
-    "Wild Cat(s)":"https://www.google.com/search?q=https://www.youtube.com/watch%3Fv%3DcxW3EQAETTA",
-    "So Good":"https://www.youtube.com/watch?v=QArBw68H-_Q",
-    "He Belongs":"https://www.youtube.com/watch?v=VoS7XXdWx0I",
-    "Ceiling":"https://www.youtube.com/watch?v=YUa0pVdWc_k",
-    "Break":"https://www.youtube.com/watch?v=H0KrOsrjyl0",
-    "Opalite":"https://www.youtube.com/watch?v=1FVF-9KQiPo",
-    "Been By Now":"https://www.youtube.com/watch?v=IpEoDLVEqVw",
-    "The Visitor":"https://www.youtube.com/watch?v=5Wq1iDyEjF8",
-    "Raindance":"https://www.youtube.com/watch?v=SOJpE1KMUbo",
-    "Die Living":"https://www.youtube.com/watch?v=KSikg9BcTHg",
-    "To Love Somebody":"https://www.youtube.com/watch?v=9hWa9w0njxE",
-    "SWIM":"https://www.youtube.com/watch?v=b4iVv91Z6lY",
-    "Where Do We Go":"https://www.youtube.com/watch?v=9ALDqFM9dPQ",
-    "Die On This Hill":"https://www.youtube.com/watch?v=5RNy_1odv20",
-    "Dinner Party":"https://www.youtube.com/watch?v=qBHLmQcLqhI",
-    "TRANKAITO":"https://www.youtube.com/watch?v=jX2mNnxVxgc",
-    "Mad World":"https://www.youtube.com/watch?v=d6EOsQm455Q",
-    "Waterfalls":"https://www.youtube.com/watch?v=G-VVVGALi1A",
-    "Jamaican ":"https://www.youtube.com/watch?v=lH2rQyG_0pk",
-    "Younger You":"https://www.youtube.com/watch?v=s-dr_KJvmO4",
-    "Porch Light":"https://www.youtube.com/watch?v=hQSO9vFXnBU",
-    "Floating":"https://www.youtube.com/watch?v=87JL3PidYV0",
-    "Sideways":"https://www.youtube.com/watch?v=RQ4noGB54a8",
-    "The Best":"https://www.youtube.com/watch?v=Fk9FSZo2geg",
-    "Lose Control":"https://www.youtube.com/watch?v=Ks-4Mzk2zeo",
-    "Honest":"https://www.youtube.com/watch?v=WpSWuVBLeyY",
-    "Don't Wanna Go Home":"https://www.youtube.com/watch?v=FKeOxhfgAEQ",
-    "We Don't Care":"https://www.youtube.com/watch?v=oIUBVPddJsk",
-    "Golden":"https://www.google.com/search?q=https://www.youtube.com/watch%3Fv%3Ds5e_UqE2n_k",
-    "Jump":"https://www.google.com/search?q=https://www.youtube.com/watch%3Fv%3DF3xZ8-N2oA0",
-    "Gehra Hua":"https://www.youtube.com/watch?v=GVizJ_jpUnw",
-    "Mann Mera":"https://www.google.com/search?q=https://www.youtube.com/watch%3Fv%3D1b-b4632K0M",
-    "Samjhawan":"https://www.google.com/search?q=https://www.youtube.com/watch%3Fv%3DH2fTrcqJ-5g",
-    "Tere Liye":"https://www.google.com/search?q=https://www.youtube.com/watch%3Fv%3Djo7-vJj1EV4",
-    "Darkhaast":"https://www.google.com/search?q=https://www.youtube.com/watch%3Fv%3DoM3zH10U3KE",
-    "Jo Tum Mere Ho":"https://www.google.com/search?q=https://www.youtube.com/watch%3Fv%3D2eF-Ea9PzZg",
-    "Pavazha Malli":""
-    "Tera Mera Rishta"
-    "Boom Shaka"
-    "Ishq de Fanniyar (Female Version)"
-    "Sheesha"
-    "Aarzu"
-    "Ishq"
-    "Inaam"
-    "Apna Bana Le"
-    "Dooron Dooron"
-    "Hale Dil"
-    "O Sanam"
-    "Chahun Main Ya Naa"
-    "Sitaare"
-    "Mast Magan"
-    "Ehsaas"
-    "Agar Tum Saath Ho"
-    "Mashooqa"
-    "Ye Tune Kya Kiya"
-    "Humsafar"
-    "Jeena Jeena"
-    "Tum Se Hi"
-    "Ishq Bulaava"
-    "Kaise Hua"
-    "Tum Hi Ho"
-    "Tere Bina"
-    "Teri Deewani"
-    "Yeh Awarapan"
-    "Raabta"
-    "Andaaz e Karam"
-    "Tujhko"
-    "Haareya"
-    "Tu Jaane Na"
-    "Jeene Laga Hoon"
-    "Ishqa Ve"
-    "Phir Mohabbat"
-    "Husn"
-    "Pehli Dafa"
-    "Boyfriend"
-    "For A Reason"
-    "Jhol"
-    "LAAVAN"
-    "AFTER GLOW"
-    "Dhurandhar"
-    "Sirra"
-    "Barota"
-    "Sohniye"
-    "Tu"
-    "Charmer"
-    "0008"
-    "Swaah Ban Ke"
-    "Wavy"
-    "Thodi Si Daaru"
-    "PAIGAAM"
-    "I Really Do..."
-    "Midnight Call"
-    "By My Side"
-    "Can't Be Us"
-    "Supreme"
-    "Aphrodite"
-    "Aadat"
-    "Water"
-    "Together"
-    "Haseen"
-    "Convo"
-    "Millionaire"
-    "California Love"
-    "Gears"
-    "Kath Lagda"
-    "Jackpot"
+    "I Can't Love You Anymore": "https://www.youtube.com/watch?v=A3G_7XgK2B4",
+    "Ghost": "https://www.youtube.com/watch?v=Sqhuk0iaq4k",
+    "Be Her": "https://www.youtube.com/watch?v=Dg47eNL_Usw",
+    "So Good": "https://www.youtube.com/watch?v=QArBw68H-_Q",
+    "He Belongs": "https://www.youtube.com/watch?v=VoS7XXdWx0I",
+    "Ceiling": "https://www.youtube.com/watch?v=YUa0pVdWc_k",
+    "Break": "https://www.youtube.com/watch?v=H0KrOsrjyl0",
+    "Opalite": "https://www.youtube.com/watch?v=1FVF-9KQiPo",
+    "Been By Now": "https://www.youtube.com/watch?v=IpEoDLVEqVw",
+    "The Visitor": "https://www.youtube.com/watch?v=5Wq1iDyEjF8",
+    "Raindance": "https://www.youtube.com/watch?v=SOJpE1KMUbo",
+    "Die Living": "https://www.youtube.com/watch?v=KSikg9BcTHg",
+    "To Love Somebody": "https://www.youtube.com/watch?v=9hWa9w0njxE",
+    "SWIM": "https://www.youtube.com/watch?v=b4iVv91Z6lY",
+    "Where Do We Go": "https://www.youtube.com/watch?v=9ALDqFM9dPQ",
+    "Die On This Hill": "https://www.youtube.com/watch?v=5RNy_1odv20",
+    "Dinner Party": "https://www.youtube.com/watch?v=qBHLmQcLqhI",
+    "TRANKAITO": "https://www.youtube.com/watch?v=jX2mNnxVxgc",
+    "Mad World": "https://www.youtube.com/watch?v=d6EOsQm455Q",
+    "Waterfalls": "https://www.youtube.com/watch?v=G-VVVGALi1A",
+    "Jamaican ": "https://www.youtube.com/watch?v=lH2rQyG_0pk",
+    "Younger You": "https://www.youtube.com/watch?v=s-dr_KJvmO4",
+    "Porch Light": "https://www.youtube.com/watch?v=hQSO9vFXnBU",
+    "Floating": "https://www.youtube.com/watch?v=87JL3PidYV0",
+    "Sideways": "https://www.youtube.com/watch?v=RQ4noGB54a8",
+    "The Best": "https://www.youtube.com/watch?v=Fk9FSZo2geg",
+    "Lose Control": "https://www.youtube.com/watch?v=Ks-4Mzk2zeo",
+    "Honest": "https://www.youtube.com/watch?v=WpSWuVBLeyY",
+    "Don't Wanna Go Home": "https://www.youtube.com/watch?v=FKeOxhfgAEQ",
+    "We Don't Care": "https://www.youtube.com/watch?v=oIUBVPddJsk",
+    "Gehra Hua": "https://www.youtube.com/watch?v=GVizJ_jpUnw",
+    "Pavazha Malli": "https://www.youtube.com/watch?v=b68HETiNO98&utm_source=gemini",
+    "Tera Mera Rishta": "https://www.youtube.com/watch?v=3gQozRwTFzI&utm_source=gemini",
+    "Boom Shaka": "https://www.youtube.com/watch?v=cL0KKSPjZf8&utm_source=gemini",
+    "Ishq de Fanniyar": "https://www.youtube.com/watch?v=rW57Ner6Jf0&utm_source=gemini",
+    "Sheesha": "https://www.youtube.com/watch?v=aRNfSqsgrgE&utm_source=gemini",
+    "Aarzu": "https://www.youtube.com/watch?v=M5OCLifZK1w&utm_source=gemini",
+    "Ishq": "https://www.youtube.com/watch?v=hHuG7FIKgtc&utm_source=gemini",
+    "Inaam": "https://www.youtube.com/watch?v=6CXKtmRjOto&utm_source=gemini",
+    "Apna Bana Le": "https://www.youtube.com/watch?v=ElZfdU54Cp8&utm_source=gemini",
+    "Dooron Dooron": "https://www.youtube.com/watch?v=LV_wiOhO40Q&utm_source=gemini",
+    "Hale Dil": "https://www.youtube.com/watch?v=uSibwB2TQC4&utm_source=gemini",
+    "O Sanam": "https://www.youtube.com/watch?v=dWqb-WqbGh8&utm_source=gemini",
+    "Chahun Main Ya Naa": "https://www.youtube.com/watch?v=VdyBtGaspss&utm_source=gemini",
+    "Sitaare": "https://www.youtube.com/watch?v=nDjloeIB3Pc&utm_source=gemini",
+    "Ehsaas": "https://www.youtube.com/watch?v=EvzNDQLwCqw&utm_source=gemini",
+    "Mashooqa": "https://www.youtube.com/watch?v=7jMzMXpSOjs&utm_source=gemini",
+    "Humsafar": "https://www.youtube.com/watch?v=2vjPBrBU-TM&utm_source=gemini",
+    "Tum Hi Ho": "https://www.youtube.com/watch?v=Umqb9KENgmk&utm_source=gemini",
+    "Yeh Awarapan": "https://www.youtube.com/watch?v=I9tX-lFUTrw&utm_source=gemini",
+    "Andaaz e Karam": "https://www.youtube.com/watch?v=__bHEfJ29j0&utm_source=gemini",
+    "Tujhko": "https://www.youtube.com/watch?v=xCHsyht5eac&utm_source=gemini",
+    "Jeene Laga Hoon": "http://www.youtube.com/watch?v=qpIdoaaPa6U&utm_source=gemini",
+    "Ishqa Ve": "http://www.youtube.com/watch?v=j18MRhEfmPk&utm_source=gemini",
+    "Phir Mohabbat": "http://www.youtube.com/watch?v=m1rcse8INWk&utm_source=gemini",
+    "Husn": "http://www.youtube.com/watch?v=gJLVTKhTnog&utm_source=gemini",
+    "Pehli Dafa": "http://www.youtube.com/watch?v=SxTYjptEzZs&utm_source=gemini",
+    "Boyfriend": "http://www.youtube.com/watch?v=5GCfYLguTIs&utm_source=gemini",
+    "For A Reason": "http://www.youtube.com/watch?v=-YlmnPh-6rE&utm_source=gemini",
+    "Jhol": "http://www.youtube.com/watch?v=-2RAq5o5pwc&utm_source=gemini",
+    "LAAVAN": "http://www.youtube.com/watch?v=OxXKDGO-MYQ&utm_source=gemini",
+    "AFTER GLOW": "http://www.youtube.com/watch?v=OnTelUJrDhc&utm_source=gemini",
+    "Dhurandhar": "http://www.youtube.com/watch?v=F2m4HPLvj-4&utm_source=gemini",
+    "Sirra": "http://www.youtube.com/watch?v=knGCfzm4jWs&utm_source=gemini",
+    "Barota": "http://www.youtube.com/watch?v=tHVDy4vYApA&utm_source=gemini",
+    "Sohniye": "http://www.youtube.com/watch?v=YY583HmKBzA&utm_source=gemini",
+    "Tu": "http://www.youtube.com/watch?v=4dkss90fdPc&utm_source=gemini",
+    "Charmer": "http://www.youtube.com/watch?v=CGhGAVH2GqY&utm_source=gemini",
+    "0008": "http://www.youtube.com/watch?v=uKAPYLvDJFQ&utm_source=gemini",
+    "Swaah Ban Ke": "http://www.youtube.com/watch?v=wks2qoNjzc0&utm_source=gemini",
+    "Wavy": "http://www.youtube.com/watch?v=XTp5jaRU3Ws&utm_source=gemini",
+    "Thodi Si Daaru": "http://www.youtube.com/watch?v=slM5s55Jz0k&utm_source=gemini",
+    "PAIGAAM": "http://www.youtube.com/watch?v=RSLBNmTUwNA&utm_source=gemini",
+    "I Really Do...": "http://www.youtube.com/watch?v=K9R7KcaettM&utm_source=gemini",
+    "Midnight Call": "http://www.youtube.com/watch?v=Dl_n2_ekfN4&utm_source=gemini",
+    "By My Side": "http://www.youtube.com/watch?v=N8dexd1PqEw&utm_source=gemini",
+    "Can't Be Us": "http://www.youtube.com/watch?v=xpzbVXZRQLo&utm_source=gemini",
+    "Supreme": "http://www.youtube.com/watch?v=AX1zRInC_TA&utm_source=gemini",
+    "Aphrodite": "http://www.youtube.com/watch?v=maS-xgLnWIc&utm_source=gemini",
+    "Aadat": "http://www.youtube.com/watch?v=AKUk1v3rBvc&utm_source=gemini",
+    "Water": "http://www.youtube.com/watch?v=iJVtxex6HIk&utm_source=gemini",
+    "Together": "http://www.youtube.com/watch?v=7iy8iB8tu5c&utm_source=gemini",
+    "Haseen": "http://www.youtube.com/watch?v=IltsOcCj1Ak&utm_source=gemini",
+    "Convo": "http://www.youtube.com/watch?v=HisoULPsqEQ&utm_source=gemini",
+    "Millionaire": "http://www.youtube.com/watch?v=XO8wew38VM8&utm_source=gemini",
+    "California Love": "http://www.youtube.com/watch?v=rSxTumD4kew&utm_source=gemini",
+    "Gears": "http://www.youtube.com/watch?v=1GTuBPlSfc0&utm_source=gemini",
+    "Kath Lagda": "http://www.youtube.com/watch?v=nMozMETeCyw&utm_source=gemini",
+    "Jackpot": "http://www.youtube.com/watch?v=yM5APO87aNU&utm_source=gemini"
 }
