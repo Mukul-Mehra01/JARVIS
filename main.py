@@ -5,6 +5,7 @@ import os
 from gtts import gTTS
 import pygame
 import musicLibrary
+import time
 
 
 # pip install pocketsphinx
@@ -18,23 +19,25 @@ def speak_old(text):
 
 def speak(text):
     tts = gTTS(text)
-    tts.save('temp.mp3') 
+    tts.save("temp.mp3")
 
-    # Initialize Pygame mixer
+    time.sleep(1)  # IMPORTANT (file save hone do)
+
     pygame.mixer.init()
 
-    # Load the MP3 file
-    pygame.mixer.music.load('temp.mp3')
+    try:
+        pygame.mixer.music.load("temp.mp3")
+        pygame.mixer.music.play()
 
-    # Play the MP3 file
-    pygame.mixer.music.play()
+        while pygame.mixer.music.get_busy():
+            pygame.time.Clock().tick(10)
 
-    # Keep the program running until the music stops playing
-    while pygame.mixer.music.get_busy():
-        pygame.time.Clock().tick(10)
-    
-    pygame.mixer.music.unload()
-    os.remove("temp.mp3") 
+    except Exception as e:
+        print("Error:", e)
+
+    finally:
+        pygame.mixer.music.unload()
+        os.remove("temp.mp3")
 
 
 
@@ -62,8 +65,9 @@ def processCommand(c):
 
     elif c_lower.startswith("play"):
         song = c_lower.replace("play ", "").strip()
-        if song in musicLibrary.music:
-            link = musicLibrary.music[song]
+        lower_music = {k.lower(): v for k, v in musicLibrary.music.items()}
+        if song in lower_music:
+            link = lower_music[song]
             webbrowser.open(link)
             speak(f"Playing {song}")
         else:
