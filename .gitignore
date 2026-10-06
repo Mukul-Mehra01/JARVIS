@@ -2,3 +2,5 @@ venv/
 .vscode/
 __pycache__/
 *.pyc
+client.py
+temp.mp3
